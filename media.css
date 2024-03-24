@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    /* Your phone-specific styles here */
+  }
+  @media (max-width: 768px) {
+    .header {
+      display: flex; /* Stack logo and menu icon horizontally */
+      justify-content: space-between; /* Align items horizontally */
+    }
+  
+    .navbar {
+      display: none; /* Hide navigation bar initially */
+    }
+  
+    #menu-icon {
+      display: block; /* Show hamburger menu icon */
+    }
+  
+    .home-content, .about-content, .services-contents {
+      max-width: 80%; /* Limit content width */
+    }
+  
+    h1, h2, h3 {
+      font-size: 1.2rem; /* Adjust font sizes for better readability */
+    }
+  }
+    
